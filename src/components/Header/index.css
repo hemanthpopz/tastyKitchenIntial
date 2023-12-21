@@ -1,0 +1,135 @@
+nav {
+  padding: 10px;
+  background-color: white;
+}
+.company-image {
+  width: 50px;
+  margin-right: 10px;
+}
+.main-popup-container {
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+}
+.popup-ul {
+  margin-top: 70px;
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.trigger-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.popup-container {
+  text-decoration: none;
+  outline: none;
+}
+
+.company-text {
+  color: #f7931e;
+  font-family: DM Sans;
+  margin-top: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.menu-lines {
+  font-size: 30px;
+  cursor: pointer;
+}
+.home-company-logo-container {
+  display: flex;
+  align-items: center;
+}
+.sm-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lg-nav-container {
+  display: none;
+}
+ul {
+  list-style: none;
+}
+.lg-nav-ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.lg-nav-ul p {
+  color: var(--light-blue-gray-700, #334155);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.356px;
+}
+.nav-link {
+  text-decoration: none;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-link :hover {
+  color: #f7931e;
+  transition-duration: 0.5s;
+}
+.logout-btn {
+  border-width: 0px;
+  border-radius: 5px;
+  background: #f7931e;
+  font-family: DM Sans;
+  cursor: pointer;
+  font-size: 12px;
+  font-style: normal;
+  border: 1px solid #f7931e;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: transparent;
+  color: #f7931e;
+  border: 1px solid #f7931e;
+}
+.cart-length {
+  color: #f7931e;
+  font-family: DM Sans;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 700px) {
+  .sm-nav-container {
+    display: none;
+  }
+
+  .lg-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) {
+  .lg-nav-container {
+    width: 80vw;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}

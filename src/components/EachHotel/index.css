@@ -1,0 +1,77 @@
+.each-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+}
+.hotel-name {
+  color: var(--light-blue-gray-700, #334155);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.2px;
+}
+.hotel-cuisine {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10px;
+  line-height: 16px; /* 133.333% */
+}
+.rating-num {
+  color: var(--light-blue-gray-800, #1e293b);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+  line-height: normal;
+}
+.star {
+  font-size: 18px;
+  color: #ffcc00;
+}
+.count {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.home-li {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.each-text-container {
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main-link {
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .home-li {
+    margin-right: 10px;
+    width: 300px;
+  }
+  .each-image {
+    width: 180px;
+  }
+}

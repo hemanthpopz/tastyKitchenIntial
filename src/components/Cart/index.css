@@ -1,0 +1,201 @@
+.no-order-image {
+  width: 200px;
+}
+.main-cart-container {
+  height: 100vh;
+  overflow: auto;
+}
+.no-order-h1 {
+  color: var(--Light-blue-gray-800, #1e293b);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+.no-order-p {
+  color: var(--Light-blue-gray-500, #64748b);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  max-width: 250px;
+}
+.order-btn {
+  border-width: 0px;
+  border-radius: 8px;
+  background: #f7931e;
+  color: var(--Light-base-white, #fff);
+  font-family: DM Sans;
+  border: 1px solid #f7931e;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.order-btn:hover {
+  background-color: transparent;
+  border: 1px solid #f7931e;
+  color: #f7931e;
+}
+.no-orders-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 20px;
+}
+.cart-container-ul {
+  width: 70vw;
+  margin-top: 40px;
+  list-style: none;
+}
+.text-ul-class {
+  margin-top: 30px;
+}
+
+.li-cart-text {
+  color: var(--Light-blue-gray-600, #475569);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  width: 70vw;
+  display: none;
+  justify-content: space-between;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.2px;
+}
+.total-order-text {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.order-text {
+  color: var(--Basic-900, #3e4c59);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+}
+.order-amount {
+  color: var(--Basic-900, #3e4c59);
+
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+}
+
+.place-order-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.place-order-button button {
+  border-width: 0px;
+  background-color: #f7931e;
+  color: white;
+  font-family: DM Sans;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: 1px solid #f7931e;
+  margin-bottom: 50px;
+  transition: 0.5s;
+}
+
+.place-order-button button:hover {
+  background-color: transparent;
+  border: 1px solid #f7931e;
+  color: #f7931e;
+}
+
+.tick-image {
+  color: #22c55e;
+}
+.success-h1 {
+  color: var(--Light-blue-gray-800, #1e293b);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+}
+.success-des {
+  color: var(--Light-blue-gray-500, #64748b);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.home-btn {
+  border-width: 0px;
+  padding: 10px 20px 10px 20px;
+  background-color: #f7931e;
+  font-family: DM Sans;
+  border: 1px solid #f7931e;
+}
+
+.home-btn:hover {
+  background-color: white;
+  color: #f7931e;
+}
+
+@media screen and (min-width: 600px) {
+  .no-order-image {
+    width: 300px;
+  }
+  .total-order-text {
+    width: 70vw;
+  }
+  .no-order-h1 {
+    font-size: 23px;
+  }
+  .no-order-p {
+    font-size: 18px;
+    max-width: 800px;
+  }
+  .main-cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .li-cart-text {
+    display: flex;
+  }
+  .place-order-button {
+    width: 70vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .no-order-image {
+    width: 350px;
+  }
+  .text-ul-class {
+    position: relative;
+    left: 15px;
+  }
+}

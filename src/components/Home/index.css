@@ -1,0 +1,137 @@
+.slider-container img {
+  height: 200px;
+}
+.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content-container {
+  padding: 25px;
+}
+.home-text-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.home-heading {
+  color: #183b56;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 32px; /* 133.333% */
+}
+
+.home-des {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 200% */
+}
+select {
+  background-color: transparent;
+  border-width: 0px;
+  color: var(--light-blue-gray-600, #475569);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+option {
+  color: var(--light-blue-gray-600, #475569);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.list-icon {
+  font-size: 30px;
+  color: #475569;
+}
+.select-container {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  gap: 10px;
+}
+
+.hotel-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.increment-btn,
+.decrement-btn {
+  font-size: 15px;
+  color: #334155;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  padding: 3px;
+  transition-timing-function: ease-in-out;
+}
+
+.increment-btn :hover {
+  opacity: 0.7;
+  transition-duration: 0.5s;
+}
+.decrement-btn :hover {
+  opacity: 0.7;
+  transition-duration: 0.5s;
+}
+.page-text {
+  color: var(--Light-blue-gray-700, #334155);
+  font-family: Bree Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 8px;
+  line-height: 24px; /* 150% */
+}
+.increment-decrement-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  .slider-container {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .slider-container img {
+    height: 300px;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .select-text-container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+  }
+  .to-center-select-text-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  select {
+    font-size: 17px;
+  }
+  option {
+    font-size: 17px;
+  }
+  .hotel-container {
+    max-width: 80vw;
+    justify-content: center;
+  }
+}

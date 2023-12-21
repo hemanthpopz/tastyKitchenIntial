@@ -1,0 +1,106 @@
+.food-item-image {
+  width: 150px;
+  height: 120px;
+  border-radius: 5px;
+}
+.food-name {
+  color: var(--Light-blue-gray-700, #334155);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 5px;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.2px;
+}
+.food-rate {
+  color: var(--Light-blue-gray-700, #334155);
+  font-family: DM Sans;
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+}
+.star-p {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--Light-blue-gray-800, #1e293b);
+  font-family: DM Sans;
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.add-btn {
+  padding: 5px 10px 5px 10px;
+  color: #ffa412;
+  border: 1px solid #ffa412;
+  background-color: transparent;
+  border-radius: 8px;
+  font-family: DM Sans;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+.each-food-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 380px;
+  max-width: 380px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.add-btn:hover {
+  background-color: #ffa412;
+  color: white;
+}
+.add-minus-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.add-minus-container button {
+  padding: 1px 4px 1px 4px;
+  background-color: transparent;
+  font-family: DM Sans;
+  border-width: 0px;
+  cursor: pointer;
+  border: 1px solid #475569;
+}
+.add-minus-container p {
+  color: var(--Light-blue-gray-600, #475569);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+@media screen and (min-width: 600px) {
+  .food-item-image {
+    width: 200px;
+    height: 150px;
+  }
+
+  .food-name {
+    margin-bottom: 10px;
+  }
+  .food-rate {
+    margin-bottom: 10px;
+  }
+  .star-p {
+    margin-bottom: 10px;
+  }
+  .add-minus-container {
+    margin-bottom: 10px;
+  }
+}

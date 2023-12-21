@@ -1,0 +1,140 @@
+.login-container {
+  height: 100vh;
+}
+.login-image-container {
+  text-align: right;
+}
+.login-image {
+  height: 50vh;
+}
+.login-text {
+  color: var(--light-blue-gray-900, #0f172a);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 40px;
+  line-height: 32px;
+}
+.login-label {
+  color: var(--light-blue-gray-600, #475569);
+  font-family: DM Sans;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+}
+.form-container {
+  padding: 20px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-form input {
+  margin-bottom: 10px;
+  outline: none;
+  border-radius: 2px;
+  background: var(--light-blue-gray-200, #e2e8f0);
+  border-width: 0px;
+  height: 40px;
+  flex-shrink: 0;
+  padding: 10px;
+  color: var(--general-dark-blue, #171f46);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.login-btn {
+  border-width: 0px;
+  height: 40px;
+  border-radius: 8px;
+  background: #f7931e;
+  color: var(--general-white, #fff);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  cursor: pointer;
+  line-height: 24px;
+}
+.error-msg {
+  color: var(--light-red-500, #ef4444);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 16px;
+}
+.lg-bg-container {
+  display: none;
+  background-image: url('../Images/lgBG.png');
+  background-size: cover;
+  background-position: center;
+}
+.login-logo-container {
+  display: none;
+  text-align: center;
+}
+.logo-image {
+  width: 50px;
+}
+.logo-text {
+  color: #f7931e;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-image-container {
+    display: none;
+  }
+
+  .main-login-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .login-container {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lg-bg-container {
+    display: block;
+    width: 50vw;
+  }
+  .form-container {
+    width: 400px;
+  }
+  .login-label {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .login-form input {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  .login-btn {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .login-text {
+    text-align: center;
+    font-size: 28px;
+  }
+  .login-logo-container {
+    display: block;
+  }
+}
